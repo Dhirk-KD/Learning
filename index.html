@@ -1,10 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    
+                                    <!-- Header -->
     <head>
-        <title> Dhir.Org </title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    
+        <!-- CSS Stylesheet -->
+        <link rel="Stylesheet" href="assests/css/style.css" />
+
+        <!-- Favicons -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assests/icons/apple-touch-icon.png"
+        />
+
+        <link
+            rel="icon"
+            sizes="32x32"
+            type="image/png"
+            href="assests/icons/favicons-32x32.png"
+        />
+        
+        <!-- Animated CSS CDN-->
+        <link
+            rel="Stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+
+        <!-- Title -->
+        <title> Kartikay Dhir | Bell Service Technician </title>
     </head>
+
     <body>
-        <h1> This is a Heading.pge </h1>
-        <p> This is a Paragraph </p>
+        
+        <!-- Nav Bar -->
+        <nav>
+            <img src="assests/images/profile.jpeg" class="profile.img"/>
+            <h1> Kartikay Dhir </h1>
+            <ul class="navigation">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+
+        <!-- About Section -->
+        <section class="hero" id="about">
+            <img
+                src="assests/images/kd.jpg"
+                alt="Kd"
+                loading="lazy"
+                class="hero-img"
+            />
+            <div class="bio animate_animated animate__shakeX">
+                <h2 class="bio_title"> About Me </h2>
+                <p class="bio_text">
+                    I am a Computer Systems graduate with passion and understanding of computer hardware
+                    and software with the ability to troubleshoot issues, and provide support and 
+                    diagnostics to clients machines. Able to multitask effectively and bring several 
+                    simultaneous installation and repair projects to completion with complete accuracy 
+                    and efficiency.
+                </p>
+        
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience" id="experience">
+            <h2 class="experience-header">Experience</h2>
+      
+            <div class="experience-wrapper">
+                <div class="first-set animate__animated animate__pulse">
+                    <a href="./Bell.html">
+                        <img
+                            src="assests/icons/Bell_logo.svg"
+                            alt="Bell"
+                            loading="lazy"
+                            class="icon icon-card"
+                        />
+                    </a>
+                </div>
+      
+                <div class="second-set animate__animated animate__pulse">
+                    <a href="./popeyes.html" >
+                        <img
+                            src="assests/icons/Popeyes_logo.svg"
+                            alt="Popeyes"
+                            loading="lazy"
+                            class="icon icon-card"
+                        />
+                    </a>
+                    <a href="./Five_guys.html">
+                        <img
+                            src="assests/icons/Five_Guys_logo.svg"
+                            alt="Five Guys"
+                            loading="lazy"
+                            class="icon icon-card"
+                        />
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="education" id="education">
+            <h2 class="education-header"> Education </h2>
+
+            <div class="education-wrapper">
+                <p class="education-body">
+                    <img src="assests/icons/Durham_College_logo.svg" alt="Durham College" class="icon icon-card_ed"> 
+                </p> 
+            </div>
+        
+        </section>
+
+        <!-- Socials -->
+        <div class="socials">
+            <a href="https://ca.linkedin.com/in/kartikaydhir" target="_blank">
+              <img
+                src="assests/icons/LI-In-Bug.png"
+                alt="Linkedin"
+                loading="lazy"
+                class="socicon"
+                />
+            </a>
+
+        </div>
+
+        <i class="scroll-up" id="scroll-up">
+            <img
+                src="assests/icons/icons8-upward-arrow.gif"
+                class="socicon up-arrow"
+                alt="scroll-up"
+            />
+        </i>
+
+        <!-- Footer -->
+
+        <footer>
+            <p class="copy">&copy; Copyright 2021</p>
+            <p class="copy">
+              Built with &#x2661; by 
+              <a href="https://ca.linkedin.com/in/kartikaydhir">Kartikay Dhir(KD)</a> 
+              
+            </p>
+      </footer>
+
+        <!-- Website Script -->
+        <script src="assests/js/app.js"></script>
+        
+        <!-- Ion icons script-->
+        <script 
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+
     </body>
 </html>
